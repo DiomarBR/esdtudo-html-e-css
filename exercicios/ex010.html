@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>colocando audio no html5</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>colocando video no html5</title>
 </head>
 <body>
-    
+    <h1>inserido video hospedado localmente</h1>
+    <p>este video esta hospedado no meu proprio servidor</p>
+    <video width="400" poster="imagens/limoes-capa.png " controls loop>
+        <source src="videos/meu-video.mp4" type="video/mp4">
+        <source src="videos/meu-video.m4v" type="video/m4v">
+        <source src="videos/meu-video.webm" type="video/webm">  
+        <source src="videos/meu-video.ogv" type="vido/ogg"> 
+        <p>seu navegador nao tem compatibilidade com repodução de video.</p>
+    </video>
+    <h1>inserindo videos do yotube</h1>
+    <iframe width="400" height="250" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>video do youtube</h1>
+    <iframe width="400" height="250" src="https://www.youtube.com/embed/a0aNyuNuvI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
