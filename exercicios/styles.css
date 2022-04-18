@@ -21,8 +21,12 @@ div{
     padding: 1rem;
 }
 ul{
-    padding: 2rem;
+    padding-left: 4rem;
+    padding-bottom: 6rem;
 }
 p{
     padding: 1rem;
+}
+a.curso{
+    padding-left: 1rem;
 }
